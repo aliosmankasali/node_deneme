@@ -1,0 +1,27 @@
+{
+  "name": "deneme_proje",
+  "version": "1.0.0",
+  "description": "deneme",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aliosmankasali/node_deneme.git"
+  },
+  "keywords": [
+    "denem",
+    "proje"
+  ],
+  "author": "Ali Osman KASALI",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aliosmankasali/node_deneme/issues"
+  },
+  "homepage": "https://github.com/aliosmankasali/node_deneme#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

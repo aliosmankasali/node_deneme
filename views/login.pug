@@ -2,6 +2,16 @@ extends layout
 
 block header
     title Giriş Sayfası
-
+    
 block content
-    h3 Giriş
+    .d-lg-flex.justify-content-sm-center.row.m-t-5
+        .bg-light.shadow-sm.card.login-card.login-tbn.col-lg-5
+            .card-body
+                img.mx-auto.d-block.mb-3(src='/img/login-avatar.png' width='100px')
+                form(method='post')
+                    .form-group
+                        input.border.rounded.shadow-sm.form-control.form-control-sm(type='text' placeholder='Kullanıcı Adı' name='username')
+                    .form-group
+                         input.border.rounded.shadow-sm.form-control.form-control-sm(type='password' placeholder='Parola' name='password')
+                    .form-group.float-right.d-lg-flex.col-sm-5
+                        button.btn.btn-success.border.rounded.shadow-sm.submit-btn.w-100(type='submit') GİRİŞ

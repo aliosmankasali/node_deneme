@@ -3,7 +3,9 @@ extends layout
 block header
     title Anasayfa
 
-block content
-    div.row 
-    h3 Anasayfa
-    
+block siteheader
+    include ./siteHeader.pug
+block yanmenu
+    include ./yanMenu.pug
+block append icerik
+    include ./navMenu.pug
